@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="Mvn_Cam::customer_attributes"
+             title="Customer Attributes"
+             module="Mvn_Cam"
+             sortOrder="205"
+             parent="Magento_Backend::stores_attributes" 
+             action="cam/customer/index/"
+             resource="Mvn_Cam::customer_attributes"/>
+
+        <add id="Mvn_Cam::address_attributes"
+             title="Customer Address Attributes"
+             module="Mvn_Cam"
+             sortOrder="210"
+             parent="Magento_Backend::stores_attributes" 
+             action="cam/address/index/"
+             resource="Mvn_Cam::address_attributes"/>
+
+    </menu>
+</config>
