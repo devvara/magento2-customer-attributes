@@ -1,4 +1,4 @@
-### Magento 2 Customer Attributes Module for v2.4.*
+## Magento 2 Customer Attributes Module for v2.4.*
 
 This module has been modified to work with Magento 2.4.* versions, based on the magento2-customer-attributes module.
 
